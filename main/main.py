@@ -1,6 +1,6 @@
 from utils.func import load_operations, date_format, check_format, sort_list
 
-list_operations = load_operations()
+list_operations = load_operations("https://www.jsonkeeper.com/b/J0N1")
 
 sort_operations = sort_list(list_operations)
 
